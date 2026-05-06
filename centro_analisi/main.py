@@ -109,7 +109,7 @@ for p in pazienti:
 
 # PARTE 3 
 print("\n" + ("="*50))
-valori_glicemia = np.array([95, 102, 78, 130, 88, 115, 72, 99, 140, 85], dtype=float)
+valori_glicemia = np.random.normal(100, 15, 100)
 
 print(f"Valori:        {valori_glicemia}")
 print(f"Media:         {np.mean(valori_glicemia):.2f}")
